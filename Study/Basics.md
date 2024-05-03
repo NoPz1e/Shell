@@ -27,3 +27,12 @@ echo $minha_variavel
 ## 3. Entrada do utilizador:
 
 `Read`-Lê a entrada do utilizador e atribui a uma variável.
+
+Exemplo:
+``` SHELL
+echo"Qual é seu nome?"
+read nome
+echo"Olá, $nome!"
+```
+
+
