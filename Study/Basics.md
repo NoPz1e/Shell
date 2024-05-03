@@ -30,9 +30,21 @@ echo $minha_variavel
 
 Exemplo:
 ``` SHELL
-echo"Qual é seu nome?"
+echo "Qual é seu nome?"
 read nome
-echo"Olá, $nome!"
+echo "Olá, $nome!"
 ```
 
+## 4. Estruturas de controle
 
+- `if`,`elif`, `else` - Usados para tomada de decisões.
+- `for`, `while`- Usados para loops.
+
+Exemplo:
+```SHELL
+if [$idade -ge 18]; then
+  echo "Você é maior de idade."
+else
+  echo "Você é menor de idade."
+fi
+```
