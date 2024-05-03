@@ -1,3 +1,5 @@
-echo"Qual o seu nome?"
+#shell/bash
+
+echo "Qual o seu nome?"
 read name
-echo"Olá, $name!"
+echo "Olá, $name!"
